@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4080CB5421AF75BA00D19D67 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4080CB5321AF75BA00D19D67 /* libmp3lame.a */; };
 		40A5E7B521A7DE23004A2256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7B421A7DE23004A2256 /* AppDelegate.m */; };
 		40A5E7B821A7DE23004A2256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7B721A7DE23004A2256 /* ViewController.m */; };
 		40A5E7BB21A7DE23004A2256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A5E7B921A7DE23004A2256 /* Main.storyboard */; };
@@ -16,15 +17,14 @@
 		40A5E7CC21A7DEB8004A2256 /* HDVoiceRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7CB21A7DEB8004A2256 /* HDVoiceRecorderViewController.m */; };
 		40A5E7CF21A7DEE2004A2256 /* HDVoiceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7CE21A7DEE2004A2256 /* HDVoiceButton.m */; };
 		40A5E7D821A7DF45004A2256 /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7D121A7DF45004A2256 /* Mp3Recorder.m */; };
-		40A5E7D921A7DF45004A2256 /* libmp3lame-arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A5E7D321A7DF45004A2256 /* libmp3lame-arm64.a */; };
 		40A5E7DA21A7DF45004A2256 /* UUAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7D521A7DF45004A2256 /* UUAVAudioPlayer.m */; };
-		40A5E7DB21A7DF45004A2256 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A5E7D721A7DF45004A2256 /* libmp3lame.a */; };
 		40A5E7DE21A7DFEE004A2256 /* HDVoiceProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7DD21A7DFEE004A2256 /* HDVoiceProgressHUD.m */; };
 		40A5E7E021A7E2C1004A2256 /* HDVoiceRecorder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40A5E7DF21A7E2C1004A2256 /* HDVoiceRecorder.bundle */; };
 		40A5E7E321A7EB4E004A2256 /* AVAudioSession+External.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5E7E221A7EB4E004A2256 /* AVAudioSession+External.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4080CB5321AF75BA00D19D67 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		40A5E7B021A7DE23004A2256 /* HDVoiceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDVoiceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A5E7B321A7DE23004A2256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40A5E7B421A7DE23004A2256 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,11 +41,9 @@
 		40A5E7CE21A7DEE2004A2256 /* HDVoiceButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVoiceButton.m; sourceTree = "<group>"; };
 		40A5E7D121A7DF45004A2256 /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
 		40A5E7D221A7DF45004A2256 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		40A5E7D321A7DF45004A2256 /* libmp3lame-arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libmp3lame-arm64.a"; sourceTree = "<group>"; };
 		40A5E7D421A7DF45004A2256 /* Mp3Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Recorder.h; sourceTree = "<group>"; };
 		40A5E7D521A7DF45004A2256 /* UUAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUAVAudioPlayer.m; sourceTree = "<group>"; };
 		40A5E7D621A7DF45004A2256 /* UUAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUAVAudioPlayer.h; sourceTree = "<group>"; };
-		40A5E7D721A7DF45004A2256 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		40A5E7DC21A7DFEE004A2256 /* HDVoiceProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVoiceProgressHUD.h; sourceTree = "<group>"; };
 		40A5E7DD21A7DFEE004A2256 /* HDVoiceProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVoiceProgressHUD.m; sourceTree = "<group>"; };
 		40A5E7DF21A7E2C1004A2256 /* HDVoiceRecorder.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HDVoiceRecorder.bundle; sourceTree = "<group>"; };
@@ -58,8 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A5E7D921A7DF45004A2256 /* libmp3lame-arm64.a in Frameworks */,
-				40A5E7DB21A7DF45004A2256 /* libmp3lame.a in Frameworks */,
+				4080CB5421AF75BA00D19D67 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,9 +114,8 @@
 		40A5E7D021A7DEEE004A2256 /* lame */ = {
 			isa = PBXGroup;
 			children = (
+				4080CB5321AF75BA00D19D67 /* libmp3lame.a */,
 				40A5E7D221A7DF45004A2256 /* lame.h */,
-				40A5E7D321A7DF45004A2256 /* libmp3lame-arm64.a */,
-				40A5E7D721A7DF45004A2256 /* libmp3lame.a */,
 				40A5E7D421A7DF45004A2256 /* Mp3Recorder.h */,
 				40A5E7D121A7DF45004A2256 /* Mp3Recorder.m */,
 				40A5E7D621A7DF45004A2256 /* UUAVAudioPlayer.h */,
